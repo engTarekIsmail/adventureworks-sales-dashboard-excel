@@ -6,7 +6,8 @@ An interactive Excel dashboard analyzing product sales performance using the **A
 
 ## 🖼️ Dashboard Preview
 
-![alt text](![alt text](image.png))
+<img width="1407" height="795" alt="image" src="https://github.com/user-attachments/assets/ba264c11-f831-495f-8dca-f53eedbb9697" />
+
 ---
 
 ## 📌 Overview
@@ -81,14 +82,18 @@ Table.AddColumn(#"Changed Type", "Date_Key", each Date.ToText([OrderDate],"yyyyM
 ## 🗂️ Project Structure
 
 ```
-adventure-works-dashboard/
+Sales-Dashboard/
 │
-├── AdventureWorks_Dashboard.xlsx   # Main Excel dashboard file
-├── screenshots/
-│   └── dashboard.png               # Dashboard preview image
-└── README.md
-```
-
+├── 📂 data/
+│   └── sales_data.xlsx          # Raw data source (Fact & Dimension tables)
+│
+├── 📂 pictures/
+│   ├── Dashboard.png            # Dashboard screenshot
+│   └── Data_Model.png           # Data model diagram
+│
+├── 🎬 dashboard_demo.mp4        # Full walkthrough video of the dashboard
+│
+└── 📄 README.md                 # You are here
 ---
 
 ## 🛠️ Tools & Skills Used
